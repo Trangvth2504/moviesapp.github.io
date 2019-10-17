@@ -137,9 +137,16 @@ ul.contact_info li a,
 
 
 /*--header-w3-agileits --*/
+.App{
+	position: relative;
+}
 
 #header {
-	padding-top: 1em;
+	position: absolute;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    right: 0;
 }
 
 .header-top{
